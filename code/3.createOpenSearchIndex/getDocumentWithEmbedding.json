@@ -1,0 +1,5 @@
+GET customers/_search
+{
+  "size": 3,
+  "_source": ["id", "email", "city", "search_text", "embedding"]
+}

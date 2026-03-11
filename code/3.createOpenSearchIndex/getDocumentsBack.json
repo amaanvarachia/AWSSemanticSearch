@@ -1,0 +1,6 @@
+GET customers/_search
+{
+  "size": 5,
+  "query": { "match_all": {} },
+  "_source": ["id","email","city","search_text"]
+}

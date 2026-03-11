@@ -1,0 +1,25 @@
+PUT customers
+{
+  "settings": {
+    "index": {
+      "knn": true
+    }
+  },
+  "mappings": {
+    "properties": {
+      "id": { "type": "integer" },
+      "email": { "type": "keyword" },
+      "city": { "type": "text" },
+      "search_text": { "type": "text" },
+      "embedding": {
+        "type": "knn_vector",
+        "dimension": 1024,
+        "method": {
+          "name": "hnsw",
+          "space_type": "l2",
+          "engine": "nmslib"
+        }
+      }
+    }
+  }
+}
