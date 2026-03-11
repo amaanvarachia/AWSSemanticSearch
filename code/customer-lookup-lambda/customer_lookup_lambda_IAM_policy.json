@@ -1,0 +1,40 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "BedrockInvoke",
+			"Effect": "Allow",
+			"Action": [
+				"bedrock:InvokeModel",
+				"bedrock:InvokeModelWithResponseStream"
+			],
+			"Resource": "*"
+		},
+		{
+			"Sid": "OpenSearchServerlessAccess",
+			"Effect": "Allow",
+			"Action": [
+				"aoss:APIAccessAll"
+			],
+			"Resource": "*"
+		},
+		{
+			"Sid": "LambdaLogs",
+			"Effect": "Allow",
+			"Action": [
+				"logs:CreateLogStream",
+				"logs:CreateLogGroup",
+				"logs:PutLogEvents"
+			],
+			"Resource": "*"
+		},
+		{
+			"Sid": "STSCallerIdentity",
+			"Effect": "Allow",
+			"Action": [
+				"sts:GetCallerIdentity"
+			],
+			"Resource": "*"
+		}
+	]
+}
