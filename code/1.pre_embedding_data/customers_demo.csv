@@ -1,0 +1,11 @@
+id,email,city,search_text
+1,user1@example.com,New York,"High-value financial customer interested in investment banking, wealth management, and brokerage services"
+2,user2@example.com,Seattle,"Customer looking for cloud engineering, big data, and enterprise technology consulting"
+3,user3@example.com,Chicago,"Frequent traveler searching for flights, hotel bookings, and vacation destinations"
+4,user4@example.com,Austin,"Food enthusiast interested in restaurants, meal delivery services, and gourmet cooking experiences"
+5,user5@example.com,Miami,"Customer focused on luxury fashion, high-end retail, designer brands, and premium shopping"
+6,user6@example.com,Denver,"Health and fitness customer exploring supplements, personal training, and wellness programs"
+7,user7@example.com,Boston,"Small business owner needing accounting software, invoicing tools, and tax automation"
+8,user8@example.com,San Francisco,"Tech startup founder searching for fundraising options, accelerators, and AI development tools"
+9,user9@example.com,Atlanta,"Sports fan looking for basketball tickets, merchandise, and game schedules"
+10,user10@example.com,Los Angeles,"Music lover interested in concerts, festivals, streaming platforms, and artist merch"
